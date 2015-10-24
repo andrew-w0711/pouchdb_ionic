@@ -1,0 +1,20 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <p>Keep track of your players! How many goals did they score?</p>
+    <div>
+      <span>John</span>
+      <button class="button button-assertive" ng-click="incScore('1')">Increase Score</button>
+      <span class="score">{{score['1']}}</span>
+    </div>
+    <div style="margin-top:20px;">
+      <span>Jack</span>
+      <button class="button button-positive" ng-click="incScore('2')">Increase Score</button>
+      <span class="score">{{score['2']}}</span>
+    </div>
+    <div style="margin-top:20px;">
+      <span>Luke</span>
+      <button class="button button-stable" ng-click="incScore('3')">Increase Score</button>
+      <span class="score">{{score['3']}}</span>
+    </div>
+  </ion-content>
+</ion-view>
